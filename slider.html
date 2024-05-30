@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="binislider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>BINI PH</title>
+ 
+</head>
+<body>
+    <section>
+        <div class="button-left">
+            <span class="material-symbols-outlined" onclick="changeSlide(+1)">arrow_forward_ios</span>
+        </div>
+        <div class="button-right">
+            <span class="material-symbols-outlined" onclick="changeSlide(-1)">arrow_back_ios</span>
+        </div>
+        <div class ="cover"></div>
+        
+        <div class="slides">
+            <img class="jo active" src="jhoanna/jo.png" alt="colet" width="400px" data-bg="jhoanna/jooo.gif">
+            <img class="colet" src="colet/colet.png" width="400px" alt="Image 2" data-bg="colet/colett.gif">
+            <img class="mikha" src="mikha/mikha.png" width="400px" alt="Image 2" data-bg="mikha/mikhaa.gif">
+            <img class="maloi" src="maloi/maloi.png" width="400px" alt="Image 2" data-bg="maloi/maloii.gif">
+            <img class="aiah" src="aiah/aiah.png" width="420px" alt="Image 2" data-bg="aiah/aiahh.gif">
+            <img class="stacey" src="stacey/stacey.png" width="400px" alt="Image 2" data-bg="stacey/staceyy.gif">
+            <img class="gwen" src="gwen/gwen.png" width="400px" alt="Image 2" data-bg="gwen/gwenn.gif">
+            <img class="sheena" src="sheena/sheena.png" width="400px" alt="Image 2" data-bg="sheena/sheenaa.gif">
+        </div>
+
+        <div class="radio-buttons">
+            <input type="radio" name="slider" id="jo" checked >
+            <input type="radio" name="slider" id="colet">
+            <input type="radio" name="slider" id="mikha">
+            <input type="radio" name="slider" id="maloi">
+            <input type="radio" name="slider" id="aiah">
+            <input type="radio" name="slider" id="stacey">
+            <input type="radio" name="slider" id="gwen">
+            <input type="radio" name="slider" id="sheena">
+            
+        </div>
+    </section>
+    <form>
+        <div class="box"></div>
+        
+        <div class="search">
+            <span class="material-symbols-outlined">search</span>
+            <input class="search-input" type="search" placeholder="Search">
+        </div>
+    </form>
+    <form>  
+        <nav>
+            <div class="Nav">
+                <ul>
+                    <li><a href="#">EXPLORE</a></li>
+                    <li><a href="#">BINI</a></li>
+                    <li><a href="#">DISCOGRAPHY</a></li>
+                    <li><a href="#">VIDEOGRAPHY</a></li>
+                    <li><a href="#">SOCIAL MEDIA</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo">
+            <img src="bini logo.png" width="120px">
+        </div>
+       
+    </form>
+    <div class = "content">
+    <div id="jhoanna-content" class="text-content">
+        <h1>BINI JHOANNA</h1>
+        <h2><em>Jhoanna Christine Robles</em></h2>
+        <p>Jhoanna Christine Burgos Robles, born on January 26, 2004, <br> 
+           and commonly referred to as Jhoanna, is a rising Filipino <br>
+           performer. Within the Filipino girl group BINI, she serves <br> 
+           as the leader, the second youngest member, and takes on <br> 
+           roles as the lead vocalist and lead rapper.
+    </div>
+    <div id="colet-content" class="text-content" style="display: none;">
+        <h1 class = "colet-header"> BINI COLET</h1>
+        <h2><em>Maria Nicolette Vergara</em></h2>
+        <p>Maria Nicolette Vergara, born on September 14, 2001, and <br> 
+           popularly known as Colet, is a budding Filipino entertainer. <br>
+           Within the Filipino girl group BINI, she holds the position <br> 
+           of the group's second eldest member, as well as being the <br>
+           main vocalist, lead dancer, and lead rapper.
+        </p>
+    </div>
+
+    <div id="mikha-content" class="text-content" style="display: none;">
+        <h1>BINI MIKHA</h1>
+        <h2><em>Mikhaela Janna Jimenea Lim</em></h2>
+        <p>Mikhaela Janna Jimenea Lim, born on November 8, 2003, and <br>
+           commonly recognized as Mikha, is an emerging Filipino <br>
+           entertainer. Within the Filipino Girl Group BINI, she holds the <br>  
+           position as the group's third youngest member, while also <br> 
+           taking on key roles as the main rapper, lead dancer, and visual.</p>
+    </div>
+    <div id="maloi-content" class="text-content" style="display: none;">
+        <h1>BINI MALOI</h1>
+        <h2><em>Mary Loi Yves Kipte Ricalde</em></h2>
+        <p>Mary Loi Yves Kipte Ricalde, born on May 27, 2002, and <br> widely 
+           recognized as Maloi, is a promising Filipino performer. <br>
+           Within the Filipino girl group BINI, she assumes the role of <br>
+           the third eldest member and serves as the group's main vocalist.</p>
+    </div>
+    <div id="aiah-content" class="text-content" style="display: none;">
+        <h1>BINI AIAH</h1>
+        <h2><em>Maraiah Queen Arceta</em></h2>
+        <p>Maraiah Queen Arceta, born on January 27, 2001, and <br> commonly
+           known as Aiah, is an emerging Filipino entertainer. <br> She holds  
+           the position of the eldest member within the Filipino <br> 
+           girl group BINI, while also taking on roles as the main rapper <br> 
+           and visual.</p>
+    </div>
+    <div id="stacey-content" class="text-content" style="display: none;">
+        <h1>BINI STACEY</h1>
+        <h2><em>Lindtsey Stacey Aubrey Sevilleja</em></h2>
+        <p>Lindtsey Stacey Aubrey Sevilleja, born on July 13, 2003, and <br >
+           widely recognized as Stacey, is an up-and-coming Filipino <br>
+           performer. Within the Filipino girl group BINI, she holds the <br> 
+           position as the fifth eldest member, taking on vital roles as <br> 
+           the main rapper and lead dancer.</p>
+    </div>
+    <div id="gwen-content" class="text-content" style="display: none;">
+        <h1>BINI GWEN</h1>
+        <h2><em>Gweneth L. Apuli</em></h2>
+        <p>Gweneth L. Apuli, born on June 19, 2003, and commonly <br>
+           referred to as Gwen, is a talented Filipino performer <br>
+           and singer. Within the Filipino girl group BINI, she holds <br>
+            the position as the fourth eldest member, showcasing her <br>
+            skills as the lead vocalist and lead rapper.
+        </p>
+    </div>
+    <div id="sheena-content" class="text-content" style="display: none;">
+        <h1>BINI SHEENA</h1>
+        <h2>Sheena Mae Catacutan</em></h2>
+        <p>Sheena Mae Catacutan, born on May 9, 2004, and more <br>
+           widely recognized as Sheena, is a budding Filipino  <br>
+           performer. Within the Filipino girl group BINI, she <br>
+           assumes the role of the youngest member, showcasing  <br>
+           her talents as themain dancer.
+        </p>
+
+    </div>
+</div>  
+<form> 
+     <div class ="tiktok-logo"><img class = "tiktok" src ="tiktok logo.png" width = "50px"> </div>
+     <div class ="instagram-logo"><img class = "ig" src ="ig.png" width = "50px"> </div> 
+     <div class ="twitter-logo"><img class = "twitter" src ="twitter.png" width = "50px"> </div></form>   
+</form>
+    <script src ="slider.js">
+        
+    </script>
+
+</body>
+</html>
